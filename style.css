@@ -18,6 +18,8 @@ background-repeat: no-repeat;
 }
 
 Footer {
+font-family: Oswald ;
+font-style: Bold;
 display:block;
 position: fixed;
 bottom: 0;
@@ -42,8 +44,6 @@ li {
   font-size: 60px;
   margin-left: 50px;
   float:left;
-  font-family: Oswald ;
-  font-style: Bold;
 }
 
 .navbar {
