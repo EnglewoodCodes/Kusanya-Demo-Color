@@ -42,7 +42,8 @@ li {
   font-size: 60px;
   margin-left: 50px;
   float:left;
-  font-family: "Oswald", Bold ;
+  font-family: Oswald ;
+  font-style: Bold;
 }
 
 .navbar {
