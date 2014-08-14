@@ -15,6 +15,7 @@ body
 background-image:url('https://cloud.githubusercontent.com/assets/2779691/3831929/24076230-1d99-11e4-93a9-be812e759fb2.JPG');
 background-size: cover;
 background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 Footer {
