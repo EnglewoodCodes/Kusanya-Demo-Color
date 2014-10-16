@@ -125,56 +125,53 @@ textarea {
                     <h3 style="color: White"><font size="7">Contact Us</font></h3>
                     
                   
-                    
-               <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF­8" method="POST">
+  <!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
 
-               <input type=hidden name="oid" value="00DG0000000ifWs">
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
-                <input type=hidden name="retURL" value="http://kusanyacafe.org/contact.html">
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
 
- <div class="col-md-4">
- 
- <label for="first_name" style="color: white"><h4>First Name </h4></label> &nbsp;<input id="first_name" maxlength="40"
+<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-name="first_name"  type="text" class="form-control" placeholder="First Name" /><br>
+<input type=hidden name="oid" value="00DG0000000ifWs">
+<input type=hidden name="retURL" value="http://www.kusanyacafe.org">
 
-<label for="last_name" style="color: white"><h4>Last Name </h4></label> &nbsp;<input id="last_name" maxlength="40"
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail" value="aja@comprehensemc.com">   -->
+<!--  ----------------------------------------------------------------------  -->
 
-name="last_name" type="text" class="form-control" placeholder="Last Name" /><br>
+<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
 
-<label for="email" style="color: white"><h4>Email</h4></label> &nbsp;<input id="email" maxlength="40" name="email"
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
 
- type="text" class="form-control" placeholder="Email" /><br> 
-     
- </div>
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-  <h3>Sign up for:</h3>
+<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
 
-<h4>Events: &nbsp;<input id="00NG000000E470S" name="00NG000000E470S"
+<label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
 
-type="checkbox" value="1" /></h4><br>
+<label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
 
-<h4>General Café News: &nbsp;<input id="00NG000000E470c" name="00NG000000E470c"
+General Café News:<input  id="00NG000000E470c" name="00NG000000E470c" type="checkbox" value="1" /><br>
 
-type="checkbox" value="1" /></h4><br>
+Events:<input  id="00NG000000E470S" name="00NG000000E470S" type="checkbox" value="1" /><br>
 
-<h4>Volunteering & Giving: &nbsp;<input id="00NG000000E470w"
+Volunteering &amp; Giving:<input  id="00NG000000E470m" name="00NG000000E470m" type="checkbox" value="1" /><br>
 
-name="00NG000000E470w" type="checkbox" value="1" /></h4><br>
+Café Deals &amp; Specials:<input  id="00NG000000E470w" name="00NG000000E470w" type="checkbox" value="1" /><br>
 
-<h4>Café Deals &amp; Specials: &nbsp; &nbsp;<input id="00NG000000E470w"
+Web Comments:<textarea  id="00NG000000E4711" name="00NG000000E4711" rows="10" type="text" wrap="soft"></textarea><br>
 
-name="00NG000000E470w" type="checkbox" value="1" /></h4><br>
-
-<h4>Send Message:</h4><textarea id="00NG000000E4711" name="00NG000000E4711"
-
-rows="5" type="text" wrap="soft"></textarea><br>
-
-<input type=hidden name="lead_source" value="Kusanya Website">
-
-<input type=hidden name="company" value="self">
-
-<input type="submit" name="submit" class="btn btn-default btn-lg">
+<input type="submit" name="submit">
 
 </form>
 
